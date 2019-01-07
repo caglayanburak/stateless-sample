@@ -1,0 +1,11 @@
+/Users/burakcaglayan/Projects/StateMachineSample/bin/Debug/netcoreapp2.2/StateMachineSample.deps.json
+/Users/burakcaglayan/Projects/StateMachineSample/bin/Debug/netcoreapp2.2/StateMachineSample.runtimeconfig.json
+/Users/burakcaglayan/Projects/StateMachineSample/bin/Debug/netcoreapp2.2/StateMachineSample.runtimeconfig.dev.json
+/Users/burakcaglayan/Projects/StateMachineSample/bin/Debug/netcoreapp2.2/StateMachineSample.dll
+/Users/burakcaglayan/Projects/StateMachineSample/bin/Debug/netcoreapp2.2/StateMachineSample.pdb
+/Users/burakcaglayan/Projects/StateMachineSample/obj/Debug/netcoreapp2.2/StateMachineSample.csprojAssemblyReference.cache
+/Users/burakcaglayan/Projects/StateMachineSample/obj/Debug/netcoreapp2.2/StateMachineSample.csproj.CoreCompileInputs.cache
+/Users/burakcaglayan/Projects/StateMachineSample/obj/Debug/netcoreapp2.2/StateMachineSample.AssemblyInfoInputs.cache
+/Users/burakcaglayan/Projects/StateMachineSample/obj/Debug/netcoreapp2.2/StateMachineSample.AssemblyInfo.cs
+/Users/burakcaglayan/Projects/StateMachineSample/obj/Debug/netcoreapp2.2/StateMachineSample.dll
+/Users/burakcaglayan/Projects/StateMachineSample/obj/Debug/netcoreapp2.2/StateMachineSample.pdb
