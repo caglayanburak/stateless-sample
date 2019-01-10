@@ -10,13 +10,10 @@ namespace StateMachineSample
             var t = pickingConfiguration.Configure(State.Picking)
                  .PermitIf(Trigger.Move, State.Sorting, () => !isSingle)
                  .PermitIf(Trigger.Move, State.Packing, () => isSingle)
-                 .OnEntry(x => test());
-            return t;
-        }
+                 .OnExit(x =>new CustomAction().InvokeExit("exit 1"))
+                 .OnEntry(x => new CustomAction().InvokeEntry("message 1"));
 
-        public static void test()
-        {
-            Console.WriteLine("OnEntry");
+            return t;
         }
     }
 
@@ -26,7 +23,10 @@ namespace StateMachineSample
         {
             var t = pickingConfiguration.Configure(State.Sorting)
                 .Permit(Trigger.Move, State.Packing)
-                 .OnEntry(x => test());
+                .OnExit(x =>new CustomAction().InvokeExit("exit 2"))
+                 .OnEntry(x => new CustomAction().InvokeEntry("message 2"));
+
+
             return t;
         }
 
