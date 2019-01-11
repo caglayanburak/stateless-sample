@@ -4,10 +4,6 @@ namespace StateMachineSample
 {
     public enum Trigger
     {
-        //        Picked,
-        //        Sorted,
-        //        Packed,
-        //        Loaded
         Move
     };
     public enum State
@@ -20,10 +16,10 @@ namespace StateMachineSample
     public class TaskState
     {
         private readonly StateMachine<State, Trigger> _stateMachine;
-        public TaskState(bool isSingle, State initialState = default(State))
+        public TaskState(bool isSingle, ICustomAction action, State initialState = default(State))
         {
             _stateMachine = new StateMachine<State, Trigger>(initialState);
-            _stateMachine.PickingAddConfiguration(isSingle);
+            _stateMachine.PickingAddConfiguration(isSingle, action);
             _stateMachine.SortingAddConfiguration(isSingle);
             _stateMachine.Configure(State.Packing)
                 .Permit(Trigger.Move, State.Loading);
@@ -31,7 +27,7 @@ namespace StateMachineSample
                 .Ignore(Trigger.Move);
         }
         public State State => _stateMachine.State;
-        // For state changes that do not require parameters.
+
         public void ChangeTo(Trigger trigger)
         {
             _stateMachine.Fire(trigger);

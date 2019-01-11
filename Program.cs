@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace StateMachineSample
 {
@@ -6,7 +7,13 @@ namespace StateMachineSample
     {
         static void Main(string[] args)
         {
-            TaskState state = new TaskState(false, State.Picking);
+            var serviceProvider = new ServiceCollection()
+                       .AddSingleton<ICustomAction, CustomAction>()
+                       .BuildServiceProvider();
+
+            var action = serviceProvider.GetService<ICustomAction>();
+
+            TaskState state = new TaskState(false, action, State.Picking);
             state.ChangeTo(Trigger.Move);
 
             Console.WriteLine(state.State);

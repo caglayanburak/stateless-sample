@@ -9,3 +9,14 @@
 /Users/burakcaglayan/Projects/StateMachineSample/obj/Debug/netcoreapp2.2/StateMachineSample.AssemblyInfo.cs
 /Users/burakcaglayan/Projects/StateMachineSample/obj/Debug/netcoreapp2.2/StateMachineSample.dll
 /Users/burakcaglayan/Projects/StateMachineSample/obj/Debug/netcoreapp2.2/StateMachineSample.pdb
+C:\Users\burak.caglayan\Documents\Projects\Stateless-Sample\bin\Debug\netcoreapp2.2\StateMachineSample.deps.json
+C:\Users\burak.caglayan\Documents\Projects\Stateless-Sample\bin\Debug\netcoreapp2.2\StateMachineSample.runtimeconfig.json
+C:\Users\burak.caglayan\Documents\Projects\Stateless-Sample\bin\Debug\netcoreapp2.2\StateMachineSample.runtimeconfig.dev.json
+C:\Users\burak.caglayan\Documents\Projects\Stateless-Sample\bin\Debug\netcoreapp2.2\StateMachineSample.dll
+C:\Users\burak.caglayan\Documents\Projects\Stateless-Sample\bin\Debug\netcoreapp2.2\StateMachineSample.pdb
+C:\Users\burak.caglayan\Documents\Projects\Stateless-Sample\obj\Debug\netcoreapp2.2\StateMachineSample.csprojAssemblyReference.cache
+C:\Users\burak.caglayan\Documents\Projects\Stateless-Sample\obj\Debug\netcoreapp2.2\StateMachineSample.csproj.CoreCompileInputs.cache
+C:\Users\burak.caglayan\Documents\Projects\Stateless-Sample\obj\Debug\netcoreapp2.2\StateMachineSample.AssemblyInfoInputs.cache
+C:\Users\burak.caglayan\Documents\Projects\Stateless-Sample\obj\Debug\netcoreapp2.2\StateMachineSample.AssemblyInfo.cs
+C:\Users\burak.caglayan\Documents\Projects\Stateless-Sample\obj\Debug\netcoreapp2.2\StateMachineSample.dll
+C:\Users\burak.caglayan\Documents\Projects\Stateless-Sample\obj\Debug\netcoreapp2.2\StateMachineSample.pdb
